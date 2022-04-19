@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>/*Name: Jack (Chen Yuanming)
+Used to perform addition. The user enters two numbers, if the two inputs are not numbers, an error message will be prompted. If it is a number, output the sum of the two numbers.*/
+function myFunction(){
+    var x = document.getElementById("1").value;
+    var y = document.getElementById("2").value;
+    var z= Number(x) + Number(y);
+    document.getElementById("demo").innerHTML = z ;
+    }</script>
+
+<body>
+    <h1>Calculator</h1>
+    <p>Enter the first number</p>
+    <input type="text" id="1" value="">
+    <p>Plus</p>
+    <p>Enter the second number</p>
+    <input type="text" id="2" value="">
+    <button onclick="myFunction()">Clink</button>
+    <p id="demo"></p>
+
+</body>
+
+</html>
